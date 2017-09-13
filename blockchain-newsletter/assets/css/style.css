@@ -1,0 +1,78 @@
+body, html {
+  font-family: 'Raleway';
+}
+.light-gray {
+  color: #A7ADB5;
+}
+.banner{
+  background-color:#F9FAFB;
+  border-bottom:1px solid #E0E4E8;
+  border-top: 4px solid #E15718;
+  padding: 100px 0 75px 0;
+}
+.banner h2{
+  color: #E15718;
+  font-weight: 600;
+}
+.banner .container {
+  position: relative;
+  right: 30px;
+}
+.banner img{
+  float:right;
+  width:112px;
+  height:112px;
+}
+.banner p:first-of-type {
+  padding-top: 15px;
+}
+.banner p:nth-of-type(2) {
+  padding-top: 20px;
+  margin-bottom: 5px;
+}
+.input-group {
+  position: relative;
+  left: 0;
+}
+input{
+  border-radius: 5px;
+  height: 50px;
+}
+button {
+  background-color: #E15718 !important;
+  border-color: #E15718 !important;
+  border-radius: 5px;
+  height: 50px;
+}
+
+.issues .container {
+  padding-top: 75px;
+  padding-bottom: 35px;
+}
+.container h5 {
+  text-align: center;
+  padding-bottom: 75px;
+}
+.footer,
+.makerspace {
+  text-align: center;
+}
+.makerspace img {
+  width: 100px;
+  height: 100px;
+}
+@media(max-width:767px){
+  .banner{
+    text-align: center;
+    padding-top: 50px;
+  }
+  .banner img{
+    float: none;
+  }
+  .banner .container{
+    right: 0px;
+  }
+  .form input{
+    width: 100%;
+  }
+}
